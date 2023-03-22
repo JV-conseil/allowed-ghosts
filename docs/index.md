@@ -26,7 +26,7 @@
     ```py
     from allowed_ghosts import ALLOWED_GHOSTS
 
-    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS = ["localhost"]
     ALLOWED_HOSTS += ALLOWED_GHOSTS
 
     INSTALLED_APPS = [
@@ -36,7 +36,7 @@
     ]
     ```
 
-4. Now you can create a [<kbd>Public Link</kbd>](https://cloud.sdu.dk/app/public-links) for today's run 👉 <https://cloud.sdu.dk/app/public-links>.
+4. Now you can create a [<kbd>Public Link</kbd>](https://cloud.sdu.dk/app/public-links) 🔗 for today's run 👉 <https://cloud.sdu.dk/app/public-links> 📆
 
 ## Sponsorship
 

@@ -5,7 +5,7 @@ title: Pick One for Today 📆
 
 <!-- markdownlint-disable MD025 MD026 MD033 MD041 -->
 <!-- omit in toc -->
-# Pick One for Today 📆
+# Pick of the Day 📆
 
 [![Django 4.1](https://img.shields.io/badge/Django-4.1.7-green)](https://docs.djangoproject.com/en/4.1/releases/4.1.7/)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11.2-green)](https://www.python.org/downloads/release/python-3112/)
@@ -20,7 +20,7 @@ title: Pick One for Today 📆
 [![Follow JV conseil on GitHub](https://img.shields.io/github/followers/JV-conseil?label=JV-conseil&style=social)](https://github.com/JV-conseil "Follow JV-conseil on GitHub")
 
 ```tip
-Create a [<kbd>Public Link</kbd>](https://cloud.sdu.dk/app/public-links) for today's run 👉 <https://cloud.sdu.dk/app/public-links>
+🔗 Create a [Public Link](https://cloud.sdu.dk/app/public-links) for today's run 📆
 ```
 
 1. app-virgem-maria.cloud.sdu.dk
