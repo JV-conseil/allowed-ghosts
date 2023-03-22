@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 # Allowed Ghosts 👻
 
+[![UCloud Health Status](https://img.shields.io/website?down_color=red&down_message=down&label=UCloud&up_color=green&up_message=up&url=https%3A%2F%2Fapp-health-check.cloud.sdu.dk%2F)](https://app-health-check.cloud.sdu.dk)
 [![Django 4.1](https://img.shields.io/badge/Django-4.1.7-green)](https://docs.djangoproject.com/en/4.1/releases/4.1.7/)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11.2-green)](https://www.python.org/downloads/release/python-3112/)
 [![License EUPL 1.2](https://img.shields.io/badge/License-EUPL--1.2-blue.svg)](LICENSE)
