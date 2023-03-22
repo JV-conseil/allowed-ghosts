@@ -31,6 +31,8 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost"]
 ALLOWED_HOSTS += ALLOWED_GHOSTS
 
+print("ALLOWED_HOSTS --> ", ALLOWED_HOSTS)
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,8 +42,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # Third-party
-    "allowed_ghosts",
+    # thirdparty
+    "sslserver",
 ]
 
 MIDDLEWARE = [
