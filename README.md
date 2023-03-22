@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # Allowed Ghosts 👻
 
 [![Django 4.1](https://img.shields.io/badge/Django-4.1.7-green)](https://docs.djangoproject.com/en/4.1/releases/4.1.7/)
@@ -14,21 +15,31 @@
 
 > Daily inspiration for `ALLOWED_HOSTS` values.
 
-## Installation
+## Installation & Usage
 
-`pip install allowed-ghosts`
+1. `pip install allowed-ghosts`
 
-Then edit your `settings.py`
+2. Add `allowed-ghosts` to your `requirements.txt`
 
-```py
-from allowed_ghosts import ALLOWED_GHOSTS
+3. Edit your `settings.py`
 
-ALLOWED_HOSTS = []
-ALLOWED_HOSTS += ALLOWED_GHOSTS
+    ```py
+    from allowed_ghosts import ALLOWED_GHOSTS
 
-INSTALLED_APPS = [
-    ...
-    # Third-party
-    "allowed_ghosts",
-]
-```
+    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS += ALLOWED_GHOSTS
+
+    INSTALLED_APPS = [
+        ...
+        # Third-party
+        "allowed_ghosts",
+    ]
+    ```
+
+4. Now you can create a [<kbd>Public Link</kbd>](https://cloud.sdu.dk/app/public-links) for today's run 👉 <https://cloud.sdu.dk/app/public-links>.
+
+## Sponsorship
+
+If this project helps you, you can offer me a cup of coffee ☕️ :-)
+
+[![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil)
