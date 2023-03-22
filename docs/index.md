@@ -17,11 +17,11 @@
 
 ## Installation & Usage
 
-1. `pip install allowed-ghosts`
+1. [`pip install allowed-ghosts`](https://pypi.org/project/allowed-ghosts/)
 
-2. Add `allowed-ghosts` to your `requirements.txt`
+2. Add `allowed-ghosts` to your [`requirements.txt`](requirements.txt)
 
-3. Edit your `settings.py`
+3. Edit your [`settings.py`](core/settings.py)
 
     ```py
     from allowed_ghosts import ALLOWED_GHOSTS
