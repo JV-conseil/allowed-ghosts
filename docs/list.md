@@ -1,6 +1,6 @@
 ---
 sort: 1
-title: Pick One for Today 📆
+title: Pick of the Day 📆
 ---
 
 <!-- markdownlint-disable MD025 MD026 MD033 MD041 -->
@@ -387,3 +387,9 @@ title: Pick One for Today 📆
 362. app-tomas-becket.cloud.sdu.dk
 363. app-sao-rugero.cloud.sdu.dk
 364. app-silvestre-i.cloud.sdu.dk
+
+## Sponsorship
+
+If this project helps you, you can offer me a cup of coffee ☕️ :-)
+
+[![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil)
