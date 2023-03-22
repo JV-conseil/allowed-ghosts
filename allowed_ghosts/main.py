@@ -52,7 +52,8 @@ class AllowedGhosts:
         try:
             txt = txt.lower()
             txt = unidecode(txt)
-            txt = re.sub(r"[^a-z,]+", " ", txt)
+            txt = re.sub(r"[0-9]+ - ", " ", txt)
+            txt = re.sub(r"[^a-z,;(.-]+", " ", txt)
             txt, *_ = re.split(r"[^a-z ]", txt)
             txt = re.sub(r"\s+", " ", txt)
             txt = txt.strip()
@@ -135,7 +136,7 @@ class AllowedGhosts:
         try:
             for line in self.lines:
                 ghost = self.parser(line)
-                if not ghost:
+                if not ghost or ghost in output:
                     continue
                 output += [ghost]
             if output:
