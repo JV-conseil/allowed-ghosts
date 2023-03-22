@@ -108,8 +108,9 @@ class AllowedGhosts:
         output = ""
         try:
             if data:
-                data = ["# Allowed Ghosts 👻", ""] + data + [""]
-                output = "\n".join(data)
+                _data = [f"1. {gh}" for gh in data]
+                _data = ["# Allowed Ghosts 👻", ""] + _data + [""]
+                output = "\n".join(_data)
         except Exception as e:
             logger.exception(e)
         logger.debug("to_markdown: %s", output)
