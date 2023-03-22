@@ -33,6 +33,10 @@
 
 4. Now you can create a [<kbd>Public Link</kbd>](https://cloud.sdu.dk/app/public-links) 🔗 for today's run 👉 <https://cloud.sdu.dk/app/public-links> 📆
 
+## Sponsorship 📚
+
+Extended documentation available 👉 <jv-conseil.github.io/allowed-ghosts/>
+
 ## Sponsorship
 
 If this project helps you, you can offer me a cup of coffee ☕️ :-)
