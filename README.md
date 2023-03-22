@@ -33,9 +33,9 @@
 
 4. Now you can create a [<kbd>Public Link</kbd>](https://cloud.sdu.dk/app/public-links) 🔗 for today's run 👉 <https://cloud.sdu.dk/app/public-links> 📆
 
-## Sponsorship 📚
+## Documentation 📚
 
-Extended documentation available 👉 <jv-conseil.github.io/allowed-ghosts/>
+Extended [documentation](https://jv-conseil.github.io/allowed-ghosts/) available 👉 <https://jv-conseil.github.io/allowed-ghosts/>
 
 ## Sponsorship
 
