@@ -70,22 +70,6 @@
       },
       "detail": "Poetry Shell to run commands like: python manage.py makemigrations.",
       "problemMatcher": []
-    },
-    {
-      "label": "Test",
-      "type": "shell",
-      "linux": {
-        "command": ".bash/osx/tests.sh"
-      },
-      "osx": {
-        "command": ".bash/osx/tests.sh"
-      },
-      "detail": "Run PyTest",
-      "problemMatcher": [],
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      }
     }
   ]
 }
