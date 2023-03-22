@@ -63,13 +63,13 @@ _jvcl_::poetry_publish() {
   if _jvcl_::ask "Are you ready to publish v${_version} on PyPI"; then
 
     _jvcl_::h1 "Pushing release v${_version} to GitHub..."
-    echo "https://github.com/JV-conseil-Internet-Consulting/django-azure-active-directory-signin/"
+    echo "https://github.com/JV-conseil/allowed-ghosts/"
     git pull
     git tag --sign "${_version}" --message "${_version} release"
     git push origin "${_version}" --verbose
 
     _jvcl_::h1 "Pushing release v${_version} to PyPi..."
-    echo "https://pypi.org/project/django-azure-active-directory-signin/"
+    echo "https://pypi.org/project/allowed-ghosts/"
     poetry publish --username "${PYPI_USERNAME}" --password "${PYPI_PASSWORD}" -vvv
   fi
 }
