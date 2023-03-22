@@ -3,6 +3,7 @@ import logging
 import os
 import re
 from functools import cached_property, lru_cache
+from pathlib import Path
 from string import Template
 
 import joblib
@@ -17,15 +18,15 @@ class AllowedGhosts:
 
     def __init__(
         self,
-        dir=os.getcwd() + "/allowed_ghosts",
         file_format=["*.txt"],
     ) -> int:
+        root = Path(__file__).resolve().parent
         self.file_format = file_format
-        self.file_dump = dir + "/README.md"
+        self.file_dump = os.path.join(root, "README.md")
         self.filter = ["editar"]
         self.hostname_template = "app-$ghost.cloud.sdu.dk"
-        self.src = dir + "/src"
-        self._joblib_cache = dir + "/_cache.joblib"
+        self.src = os.path.join(root, "src")
+        self._joblib_cache = os.path.join(root, "_cache.joblib")
 
     @cached_property
     def lines(self, *args, **kwargs) -> list:

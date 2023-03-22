@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "allowed-ghosts"
-version = "0.1.1"
+version = "0.2.0"
 description = "Daily inspiration for `ALLOWED_HOSTS` values."
 authors = ["JV conseil <contact@jv-conseil.net>"]
 license = "EUPL-1.2"
