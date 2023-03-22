@@ -13,7 +13,7 @@ declare -ix DEBUG=0 BASH_STRICT_MODE=0
 declare -x SECRET_KEY
 
 REPO_PARAM=(
-  [env]="./.env/.env"
+  [env]="${HOME}/.env/django-azure-active-directory-signin/.env"
   [cache]="./cache"
   [postgresql]="14"
   [python]="3.11"

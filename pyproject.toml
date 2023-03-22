@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "allowed-ghosts"
-version = "0.1.0"
+version = "0.1.1"
 description = "Daily inspiration for `ALLOWED_HOSTS` values."
 authors = ["JV conseil <contact@jv-conseil.net>"]
 license = "EUPL-1.2"
 readme = "README.md"
 homepage = "https://github.com/JV-conseil/allowed-ghosts"
 repository = "https://github.com/JV-conseil/allowed-ghosts"
-documentation = "https://jv-conseil-internet-consulting.github.io/allowed-ghosts/"
+documentation = "https://jv-conseil.github.io/allowed-ghosts/"
 keywords = [
     "django",
 ]

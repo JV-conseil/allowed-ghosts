@@ -11,7 +11,7 @@ title: Pick of the Day 📆
 [![Python 3.11](https://img.shields.io/badge/Python-3.11.2-green)](https://www.python.org/downloads/release/python-3112/)
 [![License EUPL 1.2](https://img.shields.io/badge/License-EUPL--1.2-blue.svg)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![CodeQL](https://github.com/JV-conseil/allowed-ghosts/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/JV-conseil/allowed-ghosts/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://github.com/JV-conseil/allowed-ghosts/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/JV-conseil/allowed-ghosts/actions/workflows/github-code-scanning/codeql)
 [![PyPI](https://img.shields.io/pypi/v/allowed-ghosts?color=green)](https://pypi.org/project/allowed-ghosts/)
 [![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil "Become a sponsor to JV-conseil")
 [![Follow JV conseil on StackOverflow](https://img.shields.io/stackexchange/stackoverflow/r/2477854)](https://stackoverflow.com/users/2477854/jv-conseil "Follow JV conseil on StackOverflow")
