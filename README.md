@@ -37,6 +37,10 @@ Daily inspiration for `ALLOWED_HOSTS` values.
 
 Extended [documentation](https://jv-conseil.github.io/allowed-ghosts/) available 👉 <https://jv-conseil.github.io/allowed-ghosts/>
 
+## TODO
+
+- Use [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/) to pull collections from web sources instead of downloaded text files.
+
 ## Sponsorship
 
 If this project helps you, you can offer me a cup of coffee ☕️ :-)
