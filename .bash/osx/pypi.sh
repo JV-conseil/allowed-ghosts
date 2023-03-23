@@ -59,20 +59,21 @@ EOF
 }
 
 _jvcl_::poetry_publish() {
-  local _version
+  local _repository _version
 
+  _repository=$(grep -Eo "^repository.+$" ./pyproject.toml | sed -E 's/^repository = "(.+)"$/\1/')
   _version="$(poetry version --short)"
 
   if _jvcl_::ask "Are you ready to publish v${_version} on PyPI"; then
 
     _jvcl_::h1 "Pushing release v${_version} to GitHub..."
-    echo "https://github.com/JV-conseil/allowed-ghosts/"
+    echo "${_repository}"
     git pull
     git tag --sign "${_version}" --message "${_version} release"
     git push origin "${_version}" --verbose
 
     _jvcl_::h1 "Pushing release v${_version} to PyPi..."
-    echo "https://pypi.org/project/allowed-ghosts/"
+    echo "${_repository}"
     poetry publish --username "${PYPI_USERNAME}" --password "${PYPI_PASSWORD}" -vvv
   fi
 }
