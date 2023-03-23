@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+#
+# author        : JV-conseil
+# credits       : JV-conseil
+# copyright     : Copyright (c) 2019-2023 JV-conseil
+#                 All rights reserved
+# ====================================================
+
 import glob
 import logging
 import os
@@ -8,6 +17,8 @@ from string import Template
 
 import joblib
 from unidecode import unidecode
+
+from .constants import UNAVAILABLE_GHOSTS
 
 " Logger "
 logger = logging.getLogger(__name__)
@@ -137,7 +148,13 @@ class AllowedGhosts:
         try:
             for line in self.lines:
                 ghost = self.parser(line)
-                if not ghost or ghost in output:
+                if "guerra" in ghost:
+                    print(
+                        ghost,
+                        self.to_hostname(ghost),
+                        self.to_hostname(ghost) in UNAVAILABLE_GHOSTS,
+                    )
+                if not ghost or ghost in output or ghost in UNAVAILABLE_GHOSTS:
                     continue
                 output += [ghost]
             if output:

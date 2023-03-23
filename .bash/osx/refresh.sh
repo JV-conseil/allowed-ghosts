@@ -7,8 +7,7 @@
 #                 All rights reserved
 #====================================================
 
-BASH_STRICT_MODE=1
-DEBUG=0
+# shellcheck source=/dev/null
+. ".bash/incl/all.sh"
 
-REPO_PARAM[DBNAME]="allowed_ghosts"
-REPO_PARAM[python]="3.11"
+poetry run python manage.py ghosts 2>&1 | tee -a logfile.log

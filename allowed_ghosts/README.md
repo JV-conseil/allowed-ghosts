@@ -80,7 +80,6 @@
 1. app-sao-patricio.cloud.sdu.dk
 1. app-sao-cirilo-de-jerusalem.cloud.sdu.dk
 1. app-sao-jose.cloud.sdu.dk
-1. app-santa-maria-josefina-do-coracao-de-jesus-sancho-de-guerra.cloud.sdu.dk
 1. app-sao-bento.cloud.sdu.dk
 1. app-sao-berilo.cloud.sdu.dk
 1. app-sao-oscar-romero.cloud.sdu.dk

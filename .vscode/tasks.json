@@ -48,6 +48,18 @@
       "problemMatcher": []
     },
     {
+      "label": "Refresh",
+      "type": "shell",
+      "linux": {
+        "command": ".bash/osx/refresh.sh"
+      },
+      "osx": {
+        "command": ".bash/osx/refresh.sh"
+      },
+      "detail": "Refresh list",
+      "problemMatcher": []
+    },
+    {
       "label": "Update",
       "type": "shell",
       "linux": {
@@ -68,7 +80,7 @@
       "osx": {
         "command": ".bash/osx/shell.sh"
       },
-      "detail": "Poetry Shell to run commands like: python manage.py makemigrations.",
+      "detail": "Poetry Shell to run commands like: python manage.py makemigrations",
       "problemMatcher": []
     }
   ]
