@@ -6,8 +6,9 @@ aux_links:
     - "//pypi.org/project/allowed-ghosts/"
 
 google:
-  gtag: G-8XLXK8R2ED
   site_verification: ChPjQbKFflPAwOF9uuYRLEodZBgPjW5CISg0gSsViN0
+
+posthog: phc_f6FrCZbt951cotQoYFi5VAS7KYpyCnpgRcbknlMwBDs
 
 plugins:
   - jemoji
