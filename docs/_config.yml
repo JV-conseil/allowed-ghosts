@@ -17,9 +17,6 @@ posthog:
 umami:
   website_id: 7670b311-8c77-45fb-a36d-6fecf59bbdac
 
-umami:
-  app_id: 7670b311-8c77-45fb-a36d-6fecf59bbdac
-
 plugins:
   - jemoji
   - jekyll-avatar
