@@ -1,4 +1,4 @@
-asgiref==3.6.0 ; python_full_version >= "3.9.16"
+asgiref==3.7.2 ; python_full_version >= "3.9.16"
 django==4.2.1 ; python_full_version >= "3.9.16"
 joblib==1.2.0 ; python_full_version >= "3.9.16"
 sqlparse==0.4.4 ; python_full_version >= "3.9.16"
